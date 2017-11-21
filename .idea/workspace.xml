@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edc3bb6f-441a-49da-a2bb-287b08155947" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DemoApp/app/js/controllers/editEventCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DemoApp/app/newEvent.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DemoApp/app/js/services/GravatarUrlBuilder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DemoApp/app/js/services/eventData.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DemoApp/app/EditProfileFiles/Original/EditProfile.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DemoApp/app/EditProfileFiles/Original/EditProfileController.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DemoApp/app/eventDetails.html" afterPath="$PROJECT_DIR$/DemoApp/app/eventDetails.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DemoApp/app/js/controllers/eventsCtrl.js" afterPath="$PROJECT_DIR$/DemoApp/app/js/controllers/eventsCtrl.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,7 +29,7 @@
       <file leaf-file-name="web-server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DemoApp/scripts/web-server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="0">
               <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
               <folding />
             </state>
@@ -36,8 +39,8 @@
       <file leaf-file-name="eventDetails.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DemoApp/app/eventDetails.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="73" column="43" lean-forward="false" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="43" />
+            <state relative-caret-position="282">
+              <caret line="68" column="28" lean-forward="true" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="28" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -45,30 +48,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="newEvent.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DemoApp/app/newEvent.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="editEventCtrl.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DemoApp/app/js/controllers/editEventCtrl.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="37" lean-forward="true" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="eventsCtrl.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DemoApp/app/js/controllers/eventsCtrl.js">
+      <file leaf-file-name="EditProfile.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DemoApp/app/EditProfile.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -77,11 +58,53 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="filters.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DemoApp/app/js/filters.js">
+      <file leaf-file-name="GravatarUrlBuilder.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DemoApp/app/js/services/GravatarUrlBuilder.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+            <state relative-caret-position="0">
+              <caret line="0" column="37" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EditProfileController.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DemoApp/app/js/controllers/EditProfileController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="47" lean-forward="false" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="newEvent.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DemoApp/app/newEvent.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="30" column="58" lean-forward="true" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="eventData.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DemoApp/app/js/services/eventData.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="eventsCtrl.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DemoApp/app/js/controllers/eventsCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -91,7 +114,7 @@
         <entry file="file://$PROJECT_DIR$/DemoApp/app/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="41" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="41" />
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -120,11 +143,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/DemoApp/scripts/web-server.js" />
-        <option value="$PROJECT_DIR$/DemoApp/app/js/controllers/eventsCtrl.js" />
         <option value="$PROJECT_DIR$/DemoApp/app/js/filters.js" />
-        <option value="$PROJECT_DIR$/DemoApp/app/eventDetails.html" />
         <option value="$PROJECT_DIR$/DemoApp/app/js/controllers/editEventCtrl.js" />
         <option value="$PROJECT_DIR$/DemoApp/app/newEvent.html" />
+        <option value="$PROJECT_DIR$/DemoApp/app/js/services/eventData.js" />
+        <option value="$PROJECT_DIR$/DemoApp/app/js/controllers/eventsCtrl.js" />
+        <option value="$PROJECT_DIR$/DemoApp/app/eventDetails.html" />
+        <option value="$PROJECT_DIR$/DemoApp/app/js/services/GravatarUrlBuilder.js" />
+        <option value="$PROJECT_DIR$/DemoApp/app/EditProfile.html" />
+        <option value="$PROJECT_DIR$/DemoApp/app/js/controllers/EditProfileController.js" />
       </list>
     </option>
   </component>
@@ -264,6 +291,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AngularFundamentalsFiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AngularFundamentalsFiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DemoApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -357,18 +410,18 @@
       <updated>1510692543160</updated>
       <workItem from="1510692545308" duration="5949000" />
       <workItem from="1510861028341" duration="1715000" />
-      <workItem from="1511206163421" duration="9284000" />
+      <workItem from="1511206163421" duration="12947000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16948000" />
+    <option name="totallyTimeSpent" value="20611000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="743" extended-state="1" />
+    <frame x="0" y="0" width="1366" height="743" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25430068" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20044877" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -485,7 +538,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DemoApp/scripts/web-server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="0">
           <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
           <folding />
         </state>
@@ -496,6 +549,16 @@
         <state relative-caret-position="279">
           <caret line="129" column="16" lean-forward="true" selection-start-line="129" selection-start-column="16" selection-end-line="129" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DemoApp/app/newEvent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="30" column="58" lean-forward="true" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -510,26 +573,8 @@
     <entry file="file://$PROJECT_DIR$/DemoApp/app/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="41" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="41" />
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DemoApp/app/js/controllers/eventsCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DemoApp/app/eventDetails.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="73" column="43" lean-forward="false" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="43" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -541,13 +586,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DemoApp/app/newEvent.html">
+    <entry file="file://$PROJECT_DIR$/DemoApp/app/js/controllers/eventsCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        <state relative-caret-position="75">
+          <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DemoApp/app/js/services/eventData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DemoApp/app/eventDetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="68" column="28" lean-forward="true" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="28" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DemoApp/app/js/services/GravatarUrlBuilder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="37" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DemoApp/app/EditProfile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DemoApp/app/js/controllers/EditProfileController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="47" lean-forward="false" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
