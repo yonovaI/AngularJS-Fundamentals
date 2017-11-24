@@ -1,9 +1,10 @@
 'use strict'
 
 eventsApp.controller('eventsCtrl', function($scope, eventData){
-    $scope.btnDisabled = false;
     $scope.sortOrder = 'name';
-    $scope.event = eventData.event;
+    eventData.getEvent(function (event) {
+        $scope.event = event;
+    })
     $scope.voteUp = function(s){
         s.upVoting++;
     }
