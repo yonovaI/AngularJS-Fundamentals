@@ -34,10 +34,10 @@
     </div>
 
     <h3>Sessions</h3>
-    Order by: <select ng-model="event.sortOrder"
+    Order by: <select ng-model="sortrOder"
                       class="input-small">
                 <option selected value="name">Name</option>
-                <option value="-upVoting">Vote</option>
+                <option value="-upVoteCount">Vote</option>
               </select>
     <ul class="thumbnails">
 
@@ -48,7 +48,7 @@
                         <i class="icon-chevron-up icon-white"></i>
                     </div>
                     <div class="badge badge-inverse">
-                        {{session.upVoting}}
+                        {{session.upVoteCount}}
                     </div>
                     <div class="votingButton" ng-click="voteDown(session)">
                         <i class="icon-chevron-down icon-white"></i>
@@ -58,7 +58,11 @@
                     <h4 class="well-title">
                         {{session.name}}
                     </h4>
-                    <span>Duration: {{session.duration | durations}}</span>
+                    <h6 style="margin-top:-10px">{{session.creatorName}}</h6>
+                    <span>Duration: {{session.duration | durations}}</span><br />
+                    <span>Level: {{session.level}}</span>
+
+                    <p>{{session.abstract}}</p>
                 </div>
             </div>
         </li>

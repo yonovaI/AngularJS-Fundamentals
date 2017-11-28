@@ -1,14 +1,18 @@
 'use strict'
 
-eventsApp.controller('eventsCtrl', function($scope, eventData){
-    $scope.sortOrder = 'name';
-    eventData.getEvent(function (event) {
-        $scope.event = event;
-    })
-    $scope.voteUp = function(s){
-        s.upVoting++;
+eventsApp.controller('eventsCtrl', function($scope, eventData, $log){
+    $scope.sortOrder = '-upVoteCount';
+    eventData.getEvent()
+        .success(function (event) {
+            $scope.event = event;
+        })
+        .error(function(data, status, headers, config){
+            $log.warn(data, status, headers(), config);
+        })
+    $scope.voteUp = function(session){
+        session.upVoteCount++;
     }
-    $scope.voteDown = function(s){
-        s.upVoting--;
+    $scope.voteDown = function(session){
+        session.upVoteCount--;
     }
 });
