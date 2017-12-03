@@ -1,6 +1,6 @@
 'use strict'
 
-eventsApp.controller('eventsCtrl', function($scope, eventData, $log){
+eventsApp.controller('eventsCtrl', function($scope, eventData, $log, $anchorScroll){
     $scope.sortOrder = '-upVoteCount';
     eventData.getEvent()
         .$promise.then(function (event) {
@@ -22,5 +22,8 @@ eventsApp.controller('eventsCtrl', function($scope, eventData, $log){
     }
     $scope.voteDown = function(session){
         session.upVoteCount--;
+    }
+    $scope.scrollToSession = function () {
+        $anchorScroll();
     }
 });

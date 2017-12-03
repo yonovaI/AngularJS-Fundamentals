@@ -1,8 +1,15 @@
-eventsApp.controller('editEventCtrl', function ($scope) {
+eventsApp.controller('editEventCtrl', function ($scope, eventData) {
 
         $scope.saveEvent = function(event, newEventForm) {
             if(newEventForm.$valid) {
-                alert('event' + event.name + 'is saved!');
+
+                eventData.save(event)
+                    .$promise
+                        .then(function (res) {console.log('success!', event)})
+                    .error(function (res) {
+                        console.log(res)
+                    })
+
             }
         };
         

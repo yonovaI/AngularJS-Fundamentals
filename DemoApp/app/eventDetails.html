@@ -7,16 +7,19 @@
 </head>
 <body>
 <div class="navbar">
-    <ul class="nav">
-        <li>
-            <a href="newEvent.html">Create Event</a>
-        </li>
-    </ul>
+    <div class="navbar-inner">
+        <ul class="nav">
+            <li>
+                <a href="newEvent.html">Create Event</a>
+            </li>
+        </ul>
+    </div>
 </div>
 <div class="container-fluid" ng-controller="eventsCtrl" style="padding-left: 20px; padding-right: 20px">
-    <img ng-src="{{event.imageUrl}}"/>
+    <img class="img-responsive" ng-src="{{event.imageUrl}}" style="display: block"/>
+    <button type="button" class="btn btn-primary" ng-click="scrollToSession()">Scroll</button>
     <div class="row">
-        <div class="span1">
+        <div class="span11">
             <h2>
                 {{event.name}}
             </h2>
@@ -41,7 +44,7 @@
               </select>
     <ul class="thumbnails">
 
-        <li ng-repeat="session in event.sessions | orderBy:sortOrder">
+        <li ng-repeat="session in event.sessions | orderBy:sortOrder" id="session{{session.id}}">
             <div class="row session">
                 <div class="span0 well votingWidget">
                     <div class="votingButton" ng-click="voteUp(session)">
