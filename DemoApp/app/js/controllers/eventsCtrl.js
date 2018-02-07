@@ -1,22 +1,10 @@
 'use strict'
 
-eventsApp.controller('eventsCtrl', function($scope, eventData, $log, $anchorScroll){
+eventsApp.controller('eventsCtrl', function($scope, eventData, $log, $anchorScroll, $routeParams){
     $scope.sortOrder = '-upVoteCount';
-    eventData.getEvent()
-        .$promise.then(function (event) {
-            $scope.event = event;
-        })
-        .catch(function (res) {
-            console.log(res);
-        })
+    $scope.event = eventData.getEvent($routeParams.eventId);
 
-        // $http:
-        // .success(function (event) {
-        //     $scope.event = event;
-        // })
-        // .error(function(data, status, headers, config){
-        //     $log.warn(data, status, headers(), config);
-        // })
+
     $scope.voteUp = function(session){
         session.upVoteCount++;
     }
